@@ -1,0 +1,5 @@
+// Define o nome do projeto
+rootProject.name = 'JavaAplicacoesDiversas'
+include 'ImageEditor'
+include 'BinarySearchTree'
+include 'JogoForca'
