@@ -1,22 +1,20 @@
-<div  align="center">
+<div align="center">
 
 ![LOGO](https://img.icons8.com/plasticine/200/java-coffee-cup-logo.png)
 <br>
 
 ![GitHub Sponsors](https://img.shields.io/github/sponsors/gleberphant)
-![GitHub last commit](https://img.shields.io/github/last-commit/gleberphant/my-bst)
-![GitHub branch status](https://img.shields.io/github/checks-status/gleberphant/my-bst/master)
-![GitHub License](https://img.shields.io/github/license/gleberphant/my-bst)
+![GitHub last commit](https://img.shields.io/github/last-commit/gleberphant/JavaAplicacoesDiversas)
+![GitHub branch status](https://img.shields.io/github/checks-status/gleberphant/JavaAplicacoesDiversas/master)
+![GitHub License](https://img.shields.io/github/license/gleberphant/JavaAplicacoesDiversas)
 
 ![LibrePay](https://img.shields.io/liberapay/receives/gleberphant.svg?logo=liberapay)
-
-
 
 
 Desenvolvido por<a href=biolivre.com.br/handersongleber> Handerson Gleber( gr4v4t1nh4) </a>
 
 
-Gostou do projeto? Por favor considere fazer uma doação para ajudar a melhorá-lo!
+Esse repositório lhe ajudou? Considere fazer uma doação para ajudar a melhorá-lo!
 
 <a href="https://liberapay.com/gleberphant/donate"><img alt="Donate using Liberapay" src="https://img.shields.io/badge/Liberapay-F6C915?logo=liberapay&logoColor=000&style=flat"></a>
 <a href="http://link.mercadopago.com.br/handersongleber" ><img src="https://img.shields.io/badge/Mercado%20Pago-00B1EA?logo=mercadopago&logoColor=fff&style=flat"></a>
@@ -25,21 +23,19 @@ Gostou do projeto? Por favor considere fazer uma doação para ajudar a melhorá
 
 </div>
 
-
-
 ## 🐙 Descrição
 
-Repositório com diferentes aplicações  feitas em JAVA, para aprendizado da linguagem:
+Repositório que reúne diferentes aplicações feitas em JAVA, para aprendizado da linguagem:
 
 - Binary Search Tree
 - Jogo da Forca
-- Aplicação de efeitos em bitmaps
+- Editor de pixels de bitmaps
 
 <br>
 
 ## ➡️ Instruções de uso
 
-Execute o arquivo build\classes\java\main\main\App.class em um terminal
+Utilize a ferramenta `gradle-8.11` para compilar e executar o projeto desejado.
 
 <br>
 

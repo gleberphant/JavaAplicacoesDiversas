@@ -13,12 +13,12 @@
 //│   IMPLEMENTAÇÃO DE JOGO DA FORCA EM JAVA                               │
 //└────────────────────────────────────────────────────────────────────────┘
 
-package forca.main;
+package App;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 
     private int rodadas_max = 5;
     private boolean running = true;
@@ -32,7 +32,7 @@ public class main {
     {
 
         // mensagem de abertura
-        System.out.println("Seja bem vindo ao Jogo da Forca feito por gravatinha");
+        System.out.println("Seja bem-vindo ao Jogo da Forca feito por Gravatinha.");
 
         // define palavra
         palavra_secreta = create_segredo();
@@ -174,13 +174,9 @@ public class main {
 
     public static void main(String[] args)
     {
-        main app = new main();
-
+        Main app = new Main();
         app.loading_game();
-
-
         app.game_loop();
-
 
     }
 
