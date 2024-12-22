@@ -67,7 +67,7 @@ public class ImageFile {
             pixelBufferSize = pixelCount;
         }
         catch (IOException e) {
-            System.out.printf("\n Erro inesperado durante a leitura do arquivo %s \n", e.getMessage());
+            System.out.printf("\n> Erro inesperado durante a leitura do arquivo %s \n", e.getMessage());
         }
     }
     void grayScale(){
@@ -105,9 +105,9 @@ public class ImageFile {
      */
     void writeFileBMP(){
 
-        System.out.println("\nCopiando o arquivo: "+ pathFileString);
+        System.out.println(" > Copiando o arquivo: "+ pathFileString);
 
-        try(BufferedOutputStream outputFile = new BufferedOutputStream ( Files.newOutputStream(Paths.get(".\\App\\assets\\image1copy.bmp")))){
+        try(BufferedOutputStream outputFile = new BufferedOutputStream ( Files.newOutputStream(Paths.get(".\\assets\\image1copy.bmp")))){
 
             byte[] bytePixel = new byte[PIXEL_SIZE];
 
@@ -133,7 +133,7 @@ public class ImageFile {
             }
 
         }catch(IOException e){
-            System.out.printf("\n Erro inesperado durante a escrita do arquivo  %s \n", e.getMessage());
+            System.out.printf("\n> Erro inesperado durante a escrita do arquivo  %s \n", e.getMessage());
 
 
         }

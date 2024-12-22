@@ -7,7 +7,7 @@ class Main {
 
     public static void main(String[] args){
 
-        String pathFile = ".\\App\\assets\\image1.bmp";
+        String pathFile = "assets\\image1.bmp";
 
         ImageFile image = new ImageFile(pathFile);
 
